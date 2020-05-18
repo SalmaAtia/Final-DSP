@@ -25,15 +25,15 @@ class ApplicationWindow(QtWidgets.QMainWindow):
 
     def xylophone(self,n):
         n = note.Note(n, quarterLength=2)
-        drumPart = stream.Part()
-        drumPart.insert(0, instrument.Xylophone())
-        drumMeasure = stream.Measure()
-        drumMeasure.append(n)
-        drumPart.append(drumMeasure)
-        stream2=stream.Stream()
-        stream2.append(drumPart)
-        sp2=midi.realtime.StreamPlayer(stream2)
-        sp2.play()
+        xylPart = stream.Part()
+        xylPart.insert(0, instrument.Xylophone())
+        xylMeasure = stream.Measure()
+        xylMeasure.append(n)
+        xylPart.append(xylMeasure)
+        stream1=stream.Stream()
+        stream1.append(xylPart)
+        sp=midi.realtime.StreamPlayer(stream1)
+        sp.play()
 
 
  

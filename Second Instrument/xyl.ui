@@ -14,7 +14,9 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(255, 255, 255);</string>
+   <string notr="true">background-color: rgb(255, 255, 255);
+background-color: rgb(245, 245, 245);
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QPushButton" name="c4">
@@ -27,7 +29,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(212, 0, 0);</string>
+     <string notr="true">background-color: rgb(212, 0, 0);
+background-color: rgb(51, 143, 194);
+background-color: rgb(75, 30, 29);
+</string>
     </property>
     <property name="text">
      <string/>
@@ -43,7 +48,9 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(229, 76, 0);</string>
+     <string notr="true">background-color: rgb(229, 76, 0);
+background-color: rgb(143, 190, 220);
+background-color: rgb(143, 71, 71);</string>
     </property>
     <property name="text">
      <string/>
@@ -59,7 +66,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(232, 232, 0);</string>
+     <string notr="true">background-color: rgb(232, 232, 0);
+background-color: rgb(182, 208, 223);
+background-color: rgb(192, 101, 102);
+</string>
     </property>
     <property name="text">
      <string/>
@@ -75,7 +85,10 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 170, 0);</string>
+     <string notr="true">background-color: rgb(0, 170, 0);
+background-color: rgb(199, 217, 237);
+background-color: rgb(212, 154, 144);
+</string>
     </property>
     <property name="text">
      <string/>
@@ -91,7 +104,11 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(75, 151, 226);</string>
+     <string notr="true">background-color: rgb(75, 151, 226);
+background-color: rgb(235, 219, 206);
+
+background-color: rgb(199, 224, 235);
+background-color: rgb(240, 200, 198);</string>
     </property>
     <property name="text">
      <string/>
@@ -107,7 +124,12 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(0, 0, 165);</string>
+     <string notr="true">background-color: rgb(0, 0, 165);
+background-color: rgb(240, 200, 198);
+background-color: rgb(235, 219, 206);
+
+background-color: rgb(222, 231, 238);
+background-color: rgb(246, 226, 227);</string>
     </property>
     <property name="text">
      <string/>
@@ -123,7 +145,13 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(221, 0, 166);</string>
+     <string notr="true">background-color: rgb(221, 0, 166);
+background-color: rgb(148, 0, 148);
+background-color: rgb(223, 233, 224);
+background-color: rgb(225, 239, 250);
+background-color: rgb(242, 250, 252);
+
+background-color: rgb(240, 230, 231);</string>
     </property>
     <property name="text">
      <string/>
@@ -139,7 +167,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 75 18pt &quot;MS Shell Dlg 2&quot;;
+</string>
     </property>
     <property name="text">
      <string>Xylophone</string>
